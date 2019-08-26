@@ -17,7 +17,7 @@ var timerId;
 function funcTimer() {
     sec++;
 
-    if (sec === 5) {
+    if (sec === 60) {
         min++;
         sec = 0;
 
@@ -30,7 +30,7 @@ function funcTimer() {
         }
     }
 
-    if (min === 12) {
+    if (min === 60) {
         hour++;
         min = 0;
 
@@ -71,8 +71,11 @@ btnReset.addEventListener('click', function () {
     btnStart.style.display = 'inline-block';
 
     let removeSplit = document.querySelector('.display__split');
-    removeSplit.remove();
-
+    if (removeSplit === null) {
+        return;
+    } else {
+        removeSplit.remove();
+    }
     numSplit = 1;
 });
 
