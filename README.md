@@ -1,1 +1,3 @@
-"# 7_js_timer" 
+# [Практика " Таймер на js "](https://dmitryhniezdilov.github.io/store_havroshka/)
+
+### js
