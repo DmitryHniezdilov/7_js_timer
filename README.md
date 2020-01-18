@@ -1,3 +1,3 @@
-# [Практика " Таймер на js "](https://dmitryhniezdilov.github.io/store_havroshka/)
+# [Практика " Таймер на js "](https://dmitryhniezdilov.github.io/practice_timer_js/)
 
 ### js
